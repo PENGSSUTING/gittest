@@ -8,7 +8,7 @@ MAX_ATTEMPTS = 3
 
 
 def play_game():
-    answer = random.randint(1, 20)
+    answer = random.randint(1, 999)
 
     print(WELCOME_MESSAGE)
     print(" 1 到 20 。")
@@ -30,3 +30,4 @@ def play_game():
 
 if __name__ == "__main__":
     play_game()
+
